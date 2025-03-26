@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/test")
+    @GetMapping("/api/test")
     public String test() throws Exception{
 
-        return "안녕 React?";
+        return "안녕 React? 하이asd";
     }
 }
